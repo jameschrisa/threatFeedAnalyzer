@@ -59,6 +59,21 @@ def validate_feed(feed):
         error_msg = "Connection timed out"
         print(f"❌ Feed '{name}' failed: {error_msg}")
         return (feed, False, error_msg)
+    
+    except requests.exceptions.SSLError:
+        error_msg = "SSL Error"
+        print(f"❌ Feed '{name}' failed: {error_msg}")
+        return (feed, False, error_msg)
+    
+    except requests.exceptions.ConnectionError:
+        error_msg = "Connection error"
+        print(f"❌ Feed '{name}' failed: {error_msg}")
+        return (feed, False, error_msg)
+    
+    except Exception as e:
+        error_msg = str(e)
+        print(f"❌ Feed '{name}' failed: {error_msg}")
+        return (feed, False, error_msg)
 
 def main():
     """
@@ -128,18 +143,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    
-    except requests.exceptions.SSLError:
-        error_msg = "SSL Error"
-        print(f"❌ Feed '{name}' failed: {error_msg}")
-        return (feed, False, error_msg)
-    
-    except requests.exceptions.ConnectionError:
-        error_msg = "Connection error"
-        print(f"❌ Feed '{name}' failed: {error_msg}")
-        return (feed, False, error_msg)
-    
-    except Exception as e:
-        error_msg = str(e)
-        print(f"❌ Feed '{name}' failed: {error_msg}")
-        return (feed, False, error_msg)
