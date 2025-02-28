@@ -28,23 +28,32 @@ Threat intelligence feeds are valuable sources of information for cybersecurity 
 
 ## Installation
 
+### macOS Setup
+
 1. Clone the repository:
    ```
    git clone https://github.com/yourusername/threat-intel-feed-validator.git
    cd threat-intel-feed-validator
    ```
 
-2. Install dependencies:
+2. Install dependencies using the requirements file:
    ```
-   pip install requests
+   pip3 install -r requirements.txt
+   ```
+
+   Note: On macOS, you should use `pip3` to ensure you're using Python 3's package manager.
+
+3. If you encounter any permission issues, you can use:
+   ```
+   pip3 install --user -r requirements.txt
    ```
 
 ## Usage
 
-To validate all feeds and update the JSON files:
+To validate all feeds and update the JSON files on macOS:
 
 ```
-python validate-feeds.py
+python3 validate-feeds.py
 ```
 
 The script will:
