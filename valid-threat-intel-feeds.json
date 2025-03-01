@@ -1,0 +1,354 @@
+{
+  "feeds": [
+    {
+      "name": "APT Groups and Operations",
+      "url": "https://docs.google.com/spreadsheets/u/1/d/1H9_xaxQHpWaa4O_Son4Gx0YOIzlcBWMsdvePFX68EKU/pubhtml",
+      "description": "A spreadsheet containing information and intelligence about APT groups, operations and tactics."
+    },
+    {
+      "name": "Binary Defense IP Banlist",
+      "url": "https://www.binarydefense.com/banlist.txt",
+      "description": "Binary Defense Systems Artillery Threat Intelligence Feed and IP Banlist Feed."
+    },
+    {
+      "name": "BGP Ranking",
+      "url": "https://www.circl.lu/projects/bgpranking/",
+      "description": "Ranking of ASNs having the most malicious content."
+    },
+    {
+      "name": "Botnet Tracker",
+      "url": "https://intel.malwaretech.com/",
+      "description": "Tracks several active botnets."
+    },
+    {
+      "name": "BOTVRIJ.EU",
+      "url": "http://www.botvrij.eu/",
+      "description": "Botvrij.eu provides different sets of open source IOCs that you can use in your security devices to detect possible malicious activity."
+    },
+    {
+      "name": "BruteForceBlocker",
+      "url": "https://danger.rulez.sk/index.php/bruteforceblocker/download/",
+      "description": "BruteForceBlocker is a perl script that monitors a server's sshd logs and identifies brute force attacks, which it then uses to automatically configure firewall blocking rules and submit those IPs back to the project site."
+    },
+    {
+      "name": "CertStream",
+      "url": "https://certstream.calidog.io/",
+      "description": "Real-time certificate transparency log update stream. See SSL certificates as they're issued in real time."
+    },
+    {
+      "name": "CI Army List",
+      "url": "http://cinsscore.com/list/ci-badguys.txt",
+      "description": "A subset of the commercial CINS Score list, focused on poorly rated IPs that are not currently present on other threatlists."
+    },
+    {
+      "name": "Cisco Umbrella",
+      "url": "http://s3-us-west-1.amazonaws.com/umbrella-static/index.html",
+      "description": "Probable Whitelist of the top 1 million sites resolved by Cisco Umbrella (was OpenDNS)."
+    },
+    {
+      "name": "Cloudmersive Virus Scan",
+      "url": "https://cloudmersive.com/virus-api",
+      "description": "Cloudmersive Virus Scan APIs scan files, URLs, and cloud storage for viruses. They leverage continuously updated signatures for millions of threats, and advanced high-performance scanning capabilities. The service is free, but requires you register for an account to retrieve your personal API key."
+    },
+    {
+      "name": "CrowdSec Console",
+      "url": "https://app.crowdsec.net/",
+      "description": "The largest crowd-sourced CTI, updated in near real-time, thanks to CrowdSec a next-gen, open-source, free, and collaborative IDS/IPS software. CrowdSec is able to analyze visitor behavior & provide an adapted response to all kinds of attacks. Users can share their alerts about threats with the community and benefit from the network effect. The IP addresses are collected from real attacks and are not coming exclusively from a honeypot network."
+    },
+    {
+      "name": "Cyber Cure free intelligence feeds",
+      "url": "https://www.cybercure.ai/",
+      "description": "Cyber Cure offers free cyber threat intelligence feeds with lists of IP addresses that are currently infected and attacking on the internet. There are list of urls used by malware and list of hash files of known malware that is currently spreading. CyberCure is using sensors to collect intelligence with a very low false positive rate."
+    },
+    {
+      "name": "DataPlane.org",
+      "url": "https://dataplane.org/",
+      "description": "DataPlane.org is a community-powered Internet data, feeds, and measurement resource for operators, by operators. We provide reliable and trustworthy service at no cost."
+    },
+    {
+      "name": "Focsec.com",
+      "url": "https://focsec.com",
+      "description": "Focsec.com provides a API for detecting VPNs, Proxys, Bots and TOR requests. Always up-to-date data helps with detecting suspicious logins, fraud and abuse."
+    },
+    {
+      "name": "DigitalSide Threat-Intel",
+      "url": "https://osint.digitalside.it/",
+      "description": "Contains sets of Open Source Cyber Threat Intelligence indicators, mostly based on malware analysis and compromised URLs, IPs and domains. The purpose of this project is to develop and test new ways to hunt, analyze, collect and share relevants IoCs to be used by SOC/CSIRT/CERT/individuals with minimun effort."
+    },
+    {
+      "name": "Disposable Email Domains",
+      "url": "https://github.com/martenson/disposable-email-domains",
+      "description": "A collection of anonymous or disposable email domains commonly used to spam/abuse services."
+    },
+    {
+      "name": "DNS Trails",
+      "url": "https://securitytrails.com/dns-trails",
+      "description": "Free intelligence source for current and historical DNS information, WHOIS information, finding other websites associated with certain IPs, subdomain knowledge and technologies."
+    },
+    {
+      "name": "Emerging Threats Firewall Rules",
+      "url": "http://rules.emergingthreats.net/fwrules/",
+      "description": "A collection of rules for several types of firewalls, including iptables, PF and PIX."
+    },
+    {
+      "name": "Emerging Threats IDS Rules",
+      "url": "http://rules.emergingthreats.net/blockrules/",
+      "description": "A collection of Snort and Suricata rules files that can be used for alerting or blocking."
+    },
+    {
+      "name": "ExoneraTor",
+      "url": "https://exonerator.torproject.org/",
+      "description": "The ExoneraTor service maintains a database of IP addresses that have been part of the Tor network. It answers the question whether there was a Tor relay running on a given IP address on a given date."
+    },
+    {
+      "name": "Exploitalert",
+      "url": "http://www.exploitalert.com/",
+      "description": "Listing of latest exploits released."
+    },
+    {
+      "name": "FastIntercept",
+      "url": "https://intercept.sh/threatlists/",
+      "description": "Intercept Security hosts a number of free IP Reputation lists from their global honeypot network."
+    },
+    {
+      "name": "Feodo Tracker",
+      "url": "https://feodotracker.abuse.ch/",
+      "description": "The Feodo Tracker abuse.ch tracks the Feodo trojan."
+    },
+    {
+      "name": "FireHOL IP Lists",
+      "url": "http://iplists.firehol.org/",
+      "description": "400+ publicly available IP Feeds analysed to document their evolution, geo-map, age of IPs, retention policy, overlaps. The site focuses on cyber crime (attacks, abuse, malware)."
+    },
+    {
+      "name": "FraudGuard",
+      "url": "https://fraudguard.io/",
+      "description": "FraudGuard is a service designed to provide an easy way to validate usage by continuously collecting and analyzing real-time internet traffic."
+    },
+    {
+      "name": "GreyNoise",
+      "url": "http://greynoise.io/",
+      "description": "GreyNoise collects and analyzes data on Internet-wide scanning activity. It collects data on benign scanners such as Shodan.io, as well as malicious actors like SSH and telnet worms."
+    },
+    {
+      "name": "HoneyDB",
+      "url": "https://honeydb.io/",
+      "description": "HoneyDB provides real time data of honeypot activity. This data comes from honeypots deployed on the Internet using the HoneyPy honeypot. In addition, HoneyDB provides API access to collected honeypot activity, which also includes aggregated data from various honeypot Twitter feeds."
+    },
+    {
+      "name": "Icewater",
+      "url": "https://github.com/SupportIntelligence/Icewater",
+      "description": "12,805 Free Yara rules created by Project Icewater."
+    },
+    {
+      "name": "InQuest Labs",
+      "url": "https://labs.inquest.net",
+      "description": "An open, interactive, and API driven data portal for security researchers. Search a large corpus of file samples, aggregate reputation information, and IOCs extracted from public sources. Augment YARA development with tooling to generate triggers, deal with mixed-case hex, and generate base64 compatible regular expressions."
+    },
+    {
+      "name": "I-Blocklist",
+      "url": "https://www.iblocklist.com/lists",
+      "description": "I-Blocklist maintains several types of lists containing IP addresses belonging to various categories. Some of these main categories include countries, ISPs and organizations. Other lists include web attacks, TOR, spyware and proxies. Many are free to use, and available in various formats."
+    },
+    {
+      "name": "IPsum",
+      "url": "https://raw.githubusercontent.com/stamparm/ipsum/master/ipsum.txt",
+      "description": "IPsum is a threat intelligence feed based on 30+ different publicly available lists of suspicious and/or malicious IP addresses. All lists are automatically retrieved and parsed on a daily (24h) basis and the final result is pushed to this repository. List is made of IP addresses together with a total number of (black)list occurrence (for each)."
+    },
+    {
+      "name": "James Brine Threat Intelligence Feeds",
+      "url": "https://jamesbrine.com.au",
+      "description": "JamesBrine provides daily threat intelligence feeds for malicious IP addresses from internationally located honeypots on cloud and private infrastructure covering a variety of protocols including SSH, FTP, RDP, GIT, SNMP and REDIS. The previous day's IOCs are available in STIX2 as well as additional IOCs such as suspicious URIs and newly registered domains which have a high probaility of use in phishing campaigns."
+    },
+    {
+      "name": "Kaspersky Threat Data Feeds",
+      "url": "https://support.kaspersky.com/datafeeds",
+      "description": "Continuously updated and inform your business or clients about risks and implications associated with cyber threats. The real-time data helps you to mitigate threats more effectively and defend against attacks even before they are launched. Demo Data Feeds contain truncated sets of IoCs (up to 1%) compared to the commercial ones."
+    },
+    {
+      "name": "Majestic Million",
+      "url": "https://majestic.com/reports/majestic-million",
+      "description": "Probable Whitelist of the top 1 million web sites, as ranked by Majestic. Sites are ordered by the number of referring subnets."
+    },
+    {
+      "name": "Maldatabase",
+      "url": "https://maldatabase.com/",
+      "description": "Maldatabase is designed to help malware data science and threat intelligence feeds. Provided data contain good information about, among other fields, contacted domains, list of executed processes and dropped files by each sample. These feeds allow you to improve your monitoring and security tools. Free services are available for Security Researchers and Students."
+    },
+    {
+      "name": "Malpedia",
+      "url": "https://malpedia.caad.fkie.fraunhofer.de/",
+      "description": "The primary goal of Malpedia is to provide a resource for rapid identification and actionable context when investigating malware. Openness to curated contributions shall ensure an accountable level of quality in order to foster meaningful and reproducible research."
+    },
+    {
+      "name": "Maltiverse",
+      "url": "https://www.maltiverse.com/",
+      "description": "The Maltiverse Project is a big and enriched IoC database where is possible to make complex queries, and aggregations to investigate about malware campaigns and its infrastructures. It also has a great IoC bulk query service."
+    },
+    {
+      "name": "MalwareBazaar",
+      "url": "https://bazaar.abuse.ch/",
+      "description": "MalwareBazaar is a project from abuse.ch with the goal of sharing malware samples with the infosec community, AV vendors and threat intelligence providers."
+    },
+    {
+      "name": "Malware Patrol",
+      "url": "https://www.malwarepatrol.net/",
+      "description": "Malware Patrol provides block lists, data feeds and threat intelligence to companies of all sizes. Because our specialty is cyber threat intelligence, all our resources go into making sure it is of the highest quality possible. We believe a security team and it's tools are only as good as the data used. This means our feeds are not filled with scraped, unverified indicators. We value quality over quantity."
+    },
+    {
+      "name": "Malware-Traffic-Analysis.net",
+      "url": "https://malware-traffic-analysis.net/",
+      "description": "This blog focuses on network traffic related to malware infections. Contains traffic analysis exercises, tutorials, malware samples, pcap files of malicious network traffic, and technical blog posts with observations."
+    },
+    {
+      "name": "MalwareDomains.com",
+      "url": "http://www.malwaredomains.com/",
+      "description": "The DNS-BH project creates and maintains a listing of domains that are known to be used to propagate malware and spyware. These can be used for detection as well as prevention (sinkholing DNS requests)."
+    },
+    {
+      "name": "MetaDefender Cloud",
+      "url": "https://www.opswat.com/developers/threat-intelligence-feed",
+      "description": "MetaDefender Cloud Threat Intelligence Feeds contains top new malware hash signatures, including MD5, SHA1, and SHA256. These new malicious hashes have been spotted by MetaDefender Cloud within the last 24 hours. The feeds are updated daily with newly detected and reported malware to provide actionable and timely threat intelligence."
+    },
+    {
+      "name": "Netlab OpenData Project",
+      "url": "https://blog.netlab.360.com/tag/english/",
+      "description": "The Netlab OpenData project was presented to the public first at ISC' 2016 on August 16, 2016. We currently provide multiple data feeds, including DGA, EK, MalCon, Mirai C2, Mirai-Scanner, Hajime-Scanner and DRDoS Reflector."
+    },
+    {
+      "name": "NoThink!",
+      "url": "http://www.nothink.org",
+      "description": "SNMP, SSH, Telnet Blacklisted IPs from Matteo Cantoni's Honeypots"
+    },
+    {
+      "name": "NovaSense Threats",
+      "url": "https://novasense-threats.com",
+      "description": "NovaSense is the Snapt threat intelligence center, and provides insights and tools for pre-emptive threat protection and attack mitigation. NovaSense protects clients of all sizes from attackers, abuse, botnets, DoS attacks and more."
+    },
+    {
+      "name": "Obstracts",
+      "url": "https://www.obstracts.com/",
+      "description": "The RSS reader for cybersecurity teams. Turn any blog into structured and actionable threat intelligence."
+    },
+    {
+      "name": "OpenPhish Feeds",
+      "url": "https://openphish.com/phishing_feeds.html",
+      "description": "OpenPhish receives URLs from multiple streams and analyzes them using its proprietary phishing detection algorithms. There are free and commercial offerings available."
+    },
+    {
+      "name": "PhishTank",
+      "url": "https://www.phishtank.com/developer_info.php",
+      "description": "PhishTank delivers a list of suspected phishing URLs. Their data comes from human reports, but they also ingest external feeds where possible. It's a free service, but registering for an API key is sometimes necessary."
+    },
+    {
+      "name": "PickupSTIX",
+      "url": "https://www.celerium.com/pickupstix",
+      "description": "PickupSTIX is a feed of free, open-source, and non-commercialized cyber threat intelligence. Currently, PickupSTIX uses three public feeds and distributes about 100 new pieces of intelligence each day. PickupSTIX translates the various feeds into STIX, which can communicate with any TAXII server. The data is free to use and is a great way to begin using cyber threat intelligence."
+    },
+    {
+      "name": "REScure Threat Intel Feed",
+      "url": "https://rescure.fruxlabs.com/",
+      "description": "[RES]cure is an independant threat intelligence project performed by the Fruxlabs Crack Team to enhance their understanding of the underlying architecture of distributed systems, the nature of threat intelligence and how to efficiently collect, store, consume and distribute threat intelligence. Feeds are generated every 6 hours."
+    },
+    {
+      "name": "RST Cloud Threat Intel Feed",
+      "url": "https://rstcloud.net/",
+      "description": "Aggregated Indicators of Compromise collected and cross-verified from multiple open and community-supported sources, enriched and ranked using our intelligence platform."
+    },
+    {
+      "name": "Rutgers Blacklisted IPs",
+      "url": "https://report.cs.rutgers.edu/mrtg/drop/dropstat.cgi?start=-86400",
+      "description": "IP List of SSH Brute force attackers is created from a merged of locally observed IPs and 2 hours old IPs registered at badip.com and blocklist.de"
+    },
+    {
+      "name": "SecurityScorecard IoCs",
+      "url": "https://github.com/securityscorecard/SSC-Threat-Intel-IoCs",
+      "description": "Public access IoCs from technical blogs posts and reports by SecurityScorecard."
+    },
+    {
+      "name": "Stixify",
+      "url": "https://www.stixify.com/",
+      "description": "Your automated threat intelligence analyst. Extract machine readable intelligence from unstructured data."
+    },
+    {
+      "name": "signature-base",
+      "url": "https://github.com/Neo23x0/signature-base",
+      "description": "A database of signatures used in other tools by Neo23x0."
+    },
+    {
+      "name": "The Spamhaus project",
+      "url": "https://www.spamhaus.org/",
+      "description": "The Spamhaus Project contains multiple threatlists associated with spam and malware activity."
+    },
+    {
+      "name": "Spur",
+      "url": "https://spur.us",
+      "description": "Spur provides tools and data to detect VPNs, Residential Proxies, and Bots. Free plan allows users to lookup an IP and get its classification, VPN provider, popular geolocations behind the IP, and some more useful context."
+    },
+    {
+      "name": "SSL Blacklist",
+      "url": "https://sslbl.abuse.ch/",
+      "description": "SSL Blacklist (SSLBL) is a project maintained by abuse.ch. The goal is to provide a list of bad SSL certificates identified by abuse.ch to be associated with malware or botnet activities. SSLBL relies on SHA1 fingerprints of malicious SSL certificates and offers various blacklists"
+    },
+    {
+      "name": "Strongarm",
+      "url": "https://strongarm.io",
+      "description": "Strongarm is a DNS blackhole that takes action on indicators of compromise by blocking malware command and control. Strongarm aggregates free indicator feeds, integrates with commercial feeds, utilizes Percipient's IOC feeds, and operates DNS resolvers and APIs for you to use to protect your network and business. Strongarm is free for personal use."
+    },
+    {
+      "name": "SIEM Rules",
+      "url": "https://www.siemrules.com",
+      "description": "Your detection engineering database. View, modify, and deploy SIEM rules for threat hunting and detection."
+    },
+    {
+      "name": "Talos",
+      "url": "https://www.talosintelligence.com/",
+      "description": "Cisco Talos Intelligence Group is one of the largest commercial threat intelligence teams in the world, comprised of world-class researchers, analysts and engineers. These teams are supported by unrivaled telemetry and sophisticated systems to create accurate, rapid and actionable threat intelligence for Cisco customers, products and services."
+    },
+    {
+      "name": "threatfeeds.io",
+      "url": "https://threatfeeds.io",
+      "description": "threatfeeds.io lists free and open-source threat intelligence feeds and sources and provides direct download links and live summaries."
+    },
+    {
+      "name": "threatfox.abuse.ch",
+      "url": "https://threatfox.abuse.ch/",
+      "description": "ThreatFox is a free platform from abuse.ch with the goal of sharing indicators of compromise (IOCs) associated with malware with the infosec community, AV vendors and threat intelligence providers."
+    },
+    {
+      "name": "Technical Blogs and Reports, by ThreatConnect",
+      "url": "https://threatconnect.com/blog/ingest-technical-blogs-reports/",
+      "description": "This source is being populated with the content from over 90 open source, security blogs. IOCs (Indicators of Compromise) are parsed out of each blog and the content of the blog is formatted in markdown."
+    },
+    {
+      "name": "ThreatMiner",
+      "url": "https://www.threatminer.org/",
+      "description": "ThreatMiner has been created to free analysts from data collection and to provide them a portal on which they can carry out their tasks, from reading reports to pivoting and data enrichment. The emphasis of ThreatMiner isn't just about indicators of compromise (IoC) but also to provide analysts with contextual information related to the IoC they are looking at."
+    },
+    {
+      "name": "WSTNPHX Malware Email Addresses",
+      "url": "https://raw.githubusercontent.com/WSTNPHX/scripts-n-tools/master/malware-email-addresses.txt",
+      "description": "Email addresses used by malware collected by VVestron Phoronix (WSTNPHX)"
+    },
+    {
+      "name": "URLhaus",
+      "url": "https://urlhaus.abuse.ch",
+      "description": "URLhaus is a project from abuse.ch with the goal of sharing malicious URLs that are being used for malware distribution."
+    },
+    {
+      "name": "VirusShare",
+      "url": "https://virusshare.com/",
+      "description": "VirusShare.com is a repository of malware samples to provide security researchers, incident responders, forensic analysts, and the morbidly curious access to samples of malicious code. Access to the site is granted via invitation only."
+    },
+    {
+      "name": "Yara-Rules",
+      "url": "https://github.com/Yara-Rules/rules",
+      "description": "An open source repository with different Yara signatures that are compiled, classified and kept as up to date as possible."
+    },
+    {
+      "name": "1st Dual Stack Threat Feed by MrLooquer",
+      "url": "https://IOCFeed.mrlooquer.com/",
+      "description": "Mrlooquer has created the first threat feed focused on systems with dual stack. Since IPv6 protocol has begun to be part of malware and fraud communications, It is necessary to detect and mitigate the threats in both protocols (IPv4 and IPv6)."
+    }
+  ]
+}
