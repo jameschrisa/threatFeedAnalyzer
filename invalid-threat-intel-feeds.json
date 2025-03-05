@@ -1,0 +1,132 @@
+{
+  "invalid_feeds": [
+    {
+      "feed": {
+        "name": "AbuseIPDB",
+        "url": "https://www.abuseipdb.com/",
+        "description": "AbuseIPDB is a project dedicated to helping combat the spread of hackers, spammers, and abusive activity on the internet. It's mission is to help make Web safer by providing a central blacklist for webmasters, system administrators, and other interested parties to report and find IP addresses that have been associated with malicious activity online."
+      },
+      "error": "HTTP error 403"
+    },
+    {
+      "feed": {
+        "name": "Alexa Top 1 Million sites",
+        "url": "http://s3.amazonaws.com/alexa-static/top-1m.csv.zip",
+        "description": "The top 1 Million sites from Amazon(Alexa). Never use this as a whitelist."
+      },
+      "error": "HTTP error 403"
+    },
+    {
+      "feed": {
+        "name": "Binary Defense IP Banlist",
+        "url": "https://www.binarydefense.com/banlist.txt",
+        "description": "Binary Defense Systems Artillery Threat Intelligence Feed and IP Banlist Feed."
+      },
+      "error": "HTTP error 403"
+    },
+    {
+      "feed": {
+        "name": "C&C Tracker",
+        "url": "http://osint.bambenekconsulting.com/feeds/c2-ipmasterlist.txt",
+        "description": "A feed of known, active and non-sinkholed C&C IP addresses, from Bambenek Consulting. Requires license for commercial use."
+      },
+      "error": "HTTP error 403"
+    },
+    {
+      "feed": {
+        "name": "CCSS Forum Malware Certificates",
+        "url": "http://www.ccssforum.org/malware-certificates.php",
+        "description": "The following is a list of digital certificates that have been reported by the forum as possibly being associated with malware to various certificate authorities. This information is intended to help prevent companies from using digital certificates to add legitimacy to malware and encourage prompt revocation of such certificates."
+      },
+      "error": "Connection timed out"
+    },
+    {
+      "feed": {
+        "name": "Cyware Threat Intelligence Feeds",
+        "url": "https://cyware.com/community/ctix-feeds",
+        "description": "Cyware's Threat Intelligence feeds brings to you the valuable threat data from a wide range of open and trusted sources to deliver a consolidated stream of valuable and actionable threat intelligence. Our threat intel feeds are fully compatible with STIX 1.x and 2.0, giving you the latest information on malicious malware hashes, IPs and domains uncovered across the globe in real-time."
+      },
+      "error": "HTTP error 404"
+    },
+    {
+      "feed": {
+        "name": "Infosec - CERT-PA",
+        "url": "https://infosec.cert-pa.it",
+        "description": "Malware samples collection and analysis, blocklist service, vulnerabilities database and more. Created and managed by CERT-PA."
+      },
+      "error": "Connection timed out"
+    },
+    {
+      "feed": {
+        "name": "MalShare.com",
+        "url": "http://www.malshare.com/",
+        "description": "The MalShare Project is a public malware repository that provides researchers free access to samples."
+      },
+      "error": "Connection timed out"
+    },
+    {
+      "feed": {
+        "name": "Malware Domain List",
+        "url": "https://www.malwaredomainlist.com/",
+        "description": "A searchable list of malicious domains that also performs reverse lookups and lists registrants, focused on phishing, trojans, and exploit kits."
+      },
+      "error": "Connection timed out"
+    },
+    {
+      "feed": {
+        "name": "NormShield Services",
+        "url": "https://services.normshield.com",
+        "description": "NormShield Services provide thousands of domain information (including whois information) that potential phishing attacks may come from. Breach and blacklist services also available. There is free sign up for public services for continuous monitoring."
+      },
+      "error": "Connection error"
+    },
+    {
+      "feed": {
+        "name": "0xSI_f33d",
+        "url": "https://feed.seguranca-informatica.pt/index.php",
+        "description": "Free service for detecting possbible phishing and malware domains, blacklisted IPs within the Portuguese cyberspace."
+      },
+      "error": "HTTP error 403"
+    },
+    {
+      "feed": {
+        "name": "SANS ICS Suspicious Domains",
+        "url": "https://isc.sans.edu/suspicious_domains.html",
+        "description": "The Suspicious Domains Threat Lists by SANS ICS tracks suspicious domains. It offers 3 lists categorized as either high, medium or low sensitivity, where the high sensitivity list has fewer false positives, whereas the low sensitivity list with more false positives. There is also an approved whitelist of domains."
+      },
+      "error": "HTTP error 404"
+    },
+    {
+      "feed": {
+        "name": "SophosLabs Intelix",
+        "url": "https://www.sophos.com/intelix",
+        "description": "SophosLabs Intelix is the threat intelligence platform that powers Sophos products and partners. You can access intelligence based on file hash, url etc. as well as submit samples for analysis. Through REST API's you can easily and quickly add this threat intelligence to your systems."
+      },
+      "error": "Connection timed out"
+    },
+    {
+      "feed": {
+        "name": "Statvoo Top 1 Million Sites",
+        "url": "https://statvoo.com/dl/top-1million-sites.csv.zip",
+        "description": "Probable Whitelist of the top 1 million web sites, as ranked by Statvoo."
+      },
+      "error": "HTTP error 404"
+    },
+    {
+      "feed": {
+        "name": "Threat Jammer",
+        "url": "https://threatjammer.com",
+        "description": "Threat Jammer is a REST API service that allows developers, security engineers, and other IT professionals to access high-quality threat intelligence data from a variety of sources and integrate it into their applications with the sole purpose of detecting and blocking malicious activity."
+      },
+      "error": "HTTP error 403"
+    },
+    {
+      "feed": {
+        "name": "UnderAttack.today",
+        "url": "https://portal.underattack.today/",
+        "description": "UnderAttack is a free intelligence platform, it shares IPs and information about suspicious events and attacks. Registration is free."
+      },
+      "error": "Connection timed out"
+    }
+  ]
+}
