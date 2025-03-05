@@ -10,6 +10,7 @@ Threat intelligence feeds are valuable sources of information for cybersecurity 
 
 - JSON configuration of 90+ threat intelligence feeds
 - Python script to validate feed availability
+- Categorization of feeds into RSS feeds and API calls
 - Parallel processing for efficient validation
 - Detailed error reporting
 - Separation of valid and invalid feeds
@@ -18,7 +19,9 @@ Threat intelligence feeds are valuable sources of information for cybersecurity 
 
 - `threat-intel-feeds.json`: Complete list of threat intelligence feeds
 - `validate-feeds.py`: Python script to validate feed URLs
-- `valid-threat-intel-feeds.json`: Generated file with only valid feeds
+- `valid-threat-intel-feeds.json`: Generated file with all valid feeds
+- `valid-rss-feeds.json`: Generated file with valid RSS feeds
+- `valid-apis.json`: Generated file with valid API calls
 - `invalid-threat-intel-feeds.json`: Generated file with invalid feeds and their error messages
 
 ## Requirements
@@ -59,27 +62,34 @@ python3 validate-feeds.py
 The script will:
 1. Read the original `threat-intel-feeds.json` file
 2. Attempt to connect to each feed URL
-3. Generate a `valid-threat-intel-feeds.json` with working feeds
-4. Generate an `invalid-threat-intel-feeds.json` with non-working feeds
-5. Display statistics about the validation process
+3. Categorize valid feeds as either RSS feeds or API calls
+4. Generate a `valid-threat-intel-feeds.json` with all working feeds
+5. Generate a `valid-rss-feeds.json` with working RSS feeds
+6. Generate a `valid-apis.json` with working API calls
+7. Generate an `invalid-threat-intel-feeds.json` with non-working feeds
+8. Display statistics about the validation process
 
 ### Output Example
 
 ```
-Found 91 feeds in the configuration file.
+Found 85 feeds in the configuration file.
 Validating feeds with 10 parallel workers...
 ---------------------------------------------------
-✅ Feed 'AbuseIPDB' is valid
-❌ Feed 'Botnet Tracker' failed: Connection error
-✅ Feed 'BOTVRIJ.EU' is valid
+✅ Feed 'Binary Defense IP Banlist' is valid (api)
+❌ Feed 'AbuseIPDB' failed: HTTP error 403
+✅ Feed 'BOTVRIJ.EU' is valid (api)
 ...
 
 ---------------------------------------------------
-Total feeds: 91
-Valid feeds: 72
-Invalid feeds: 19
+Total feeds: 85
+Valid feeds: 69
+  - RSS feeds: 0
+  - API feeds: 69
+Invalid feeds: 16
 
 Success: Updated configuration saved to 'valid-threat-intel-feeds.json'
+RSS feeds saved to 'valid-rss-feeds.json'
+API feeds saved to 'valid-apis.json'
 Invalid feeds saved to 'invalid-threat-intel-feeds.json' for reference
 ```
 
